@@ -1,0 +1,100 @@
+Number of queries: 14
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Workshop> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+?x1 <http://www.w3.org/2002/07/owl#equivalentProperty> ?x0 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+?x1 <http://www.w3.org/2002/07/owl#equivalentProperty> ?x0 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#SessionEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#SessionEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x0 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Workshop> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x0 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+?x0 <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Session> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x0 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+?x0 <http://www.w3.org/2002/07/owl#inverseOf> ?x1 . 
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+} 
+
+

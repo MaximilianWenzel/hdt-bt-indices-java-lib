@@ -1,0 +1,2082 @@
+Number of queries: 160
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList> ?x1 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList> ?x1 . 
+?x2 <http://xmlns.com/foaf/0.1/maker> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList> ?x1 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x2 <http://xmlns.com/foaf/0.1/maker> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasItem> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAuthorList> ?x1 . 
+?x2 <http://xmlns.com/foaf/0.1/maker> ?x3 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#withOrganisation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#during> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasSubEvent> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasContent> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/made> ?x2 . 
+?x2 <http://xmlns.com/foaf/0.1/maker> ?x3 . 
+?x3 <http://xmlns.com/foaf/0.1/made> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x3 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x4 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x2 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#hasAffiliation> ?x3 . 
+} 
+
+
+select distinct  ?x4 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person> .
+?x4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#TimeIndexedSituation> .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x1 . 
+?x2 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+?x4 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isAffiliationOf> ?x3 . 
+} 
+
+

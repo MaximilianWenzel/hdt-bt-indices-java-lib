@@ -1,0 +1,354 @@
+Number of queries: 44
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB3 260-092" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB3 260-092" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ?x0 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB3 260-092" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <http://xmlns.com/foaf/0.1/name> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#endDate> "2019-10-29T17:40:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#isSubEventOf> <https://w3id.org/scholarlydata/track/iswc-2019-industry> .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB3 260-092" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-27T17:20:00" .
+} 
+
+
+select distinct  ?x1 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Track> .
+?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> .
+?x0 <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ?x1 . 
+?x1 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#name> "2019-10-29T17:40:00" .
+} 
+
+

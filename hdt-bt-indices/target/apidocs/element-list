@@ -1,0 +1,14 @@
+btindexmodels
+btindexmodels.categoryexplorationmodels
+btindexmodels.facetedsearchmodels
+btindexmodels.iterators
+btindices
+btindices.indexgeneration
+btindices.indicesmanager
+btindices.statisticalquerygeneration
+btindices.statisticalquerygeneration.querysets
+efficiencycomparison
+efficiencycomparison.individualexperiments
+queryenginestubs
+queryenginestubs.interfaces
+queryenginestubs.queryexecutors

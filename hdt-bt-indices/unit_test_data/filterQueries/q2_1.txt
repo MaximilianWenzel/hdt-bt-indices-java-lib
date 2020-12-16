@@ -1,0 +1,58 @@
+Number of queries: 8
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB3 260-092" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB4 260-073" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate> "2019-10-27T09:20:00" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Tutorial> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB3 260-092" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Tutorial> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#location> "OGGB4 260-073" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Tutorial> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate> "2019-10-27T09:20:00" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate> "2019-10-27T09:20:00" .
+} 
+
+
+select distinct  ?x0 where { 
+?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Workshop> .
+?x0 <http://www.w3.org/2002/12/cal/icaltzd#dtend> "2019-10-27T17:20:00" .
+?x0 <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#startDate> "2019-10-27T09:20:00" .
+} 
+
+
