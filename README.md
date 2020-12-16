@@ -1,14 +1,14 @@
 # hdt-bt-indices-java-lib
 
 ## Overview
-The HDT BT indices represent an extension of the HDT serialization format for the efficient exploration of RDF data sets. The original modules of the HDT Java library from Git (https://github.com/rdfhdt/hdt-java) have not been modified, which includes hdt-java-api, hdt-java-core, hdt-java-cli, hdt-jena, hdt-java-package and hdt-fuseki.
+The HDT BT indices represent an extension of the HDT serialization format for the efficient exploration of RDF data sets. The original modules of the HDT Java library from Git (https://github.com/rdfhdt/hdt-java) have been included as maven dependency, which includes the hdt-java-api, hdt-java-core, hdt-java-cli, hdt-jena, hdt-java-package and hdt-fuseki.
 
 * hdt-bt-indices: represents the module which provides all classes in order to generate and manage the BT indices. 
 * exploration-experiments: provides all classes which were required to conduct the experiments where the performance of the BT indices has been compared to other approaches. 
 * hdt-bt-indices-tests: this module contains unit tests in order to prove the correctness of the implemented exploratory operations. Furthermore, the command line applications have been tested in this module. 
 
 ## Command Line Applications:
-By the execution of a "mvn install" command in the exploration-experiments and hdt-bt-indices module, a single JAR file with all required dependencies can be generated. It is stored to the corresponding "target" folder of the directory where the pom-file is located. The respective applications can subsequently be executed by utilizing the JAR file and the classpath in a "java -cp \<SNAPSHOT-JAR\> \<CLASSPATH\>" command. 
+By the execution of a "mvn install" command in the hdt-bt-indices directory, a single JAR file with all required dependencies can be generated. It is stored in the corresponding "target" folder of the directory where the pom-file is located. The respective applications can subsequently be executed by utilizing the JAR file and the classpath in a "java -cp \<SNAPSHOT-JAR\> \<CLASSPATH\>" command. 
 
 ## hdt-bt-indices JAR-File
 
